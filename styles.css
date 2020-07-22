@@ -1,0 +1,69 @@
+body { 
+    font-family: 'Play', sans-serif;
+    font-size: 1.35em;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    max-width: 100%;
+}
+
+figure {
+    margin: 20px;
+    border: 1.5px solid rgb(189, 187, 187);
+    padding: 10px;
+    background-color: rgb(253, 251, 251);
+}
+
+figcaption {
+    margin: auto;
+    width: 600px;
+    font-style: italic;
+    font-size: 1.1em;
+    max-width: 100%;
+}
+
+li {
+    margin: fit-content;
+}
+
+#main {
+    background-color: rgb(241, 237, 237);
+}
+
+blockquote {
+    font-size: 0.85em;
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    text-align: left;
+}
+
+#footer {
+    padding: 30px;
+}
+
+@media (max-width: 460px) {
+    blockquote {
+        width: 200px;
+    }
+
+    figcaption {
+        font-size: 0.6em;
+    }
+
+    h1{
+        font-size: 0.9em;
+    }
+
+    p, h3, cite  {
+        font-size: 0.7em;
+    }
+
+    li {
+        font-size: 0.7em;
+        text-align: left;
+    }
+}
