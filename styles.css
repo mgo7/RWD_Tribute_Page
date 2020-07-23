@@ -24,9 +24,13 @@ figcaption {
     max-width: 100%;
 }
 
-li {
-    margin: fit-content;
+ul {
+    width: 400px;
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
 }
+
 
 #main {
     background-color: rgb(241, 237, 237);
@@ -43,6 +47,10 @@ blockquote {
 
 #footer {
     padding: 30px;
+}
+
+a:hover {
+    color: hotpink;
 }
 
 @media (max-width: 460px) {
@@ -63,7 +71,7 @@ blockquote {
     }
 
     li {
-        font-size: 0.7em;
+        font-size: 0.65em;
         text-align: left;
     }
 }
